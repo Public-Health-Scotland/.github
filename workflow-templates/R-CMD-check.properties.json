@@ -1,0 +1,14 @@
+{
+    "name": "PHS specific R-CMD check",
+    "description": "A workflow to run R-CMD check of an R package, checking against R versions and platforms used within PHS (as well as other checks)",
+    "iconName": "example-icon",
+    "categories": [
+        "R",
+        "continuous-integration",
+        "testing"
+    ],
+    "filePatterns": [
+        "^NAMESPACE$",
+        "^DESCRIPTION$"
+    ]
+}
