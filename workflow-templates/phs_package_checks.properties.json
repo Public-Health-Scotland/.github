@@ -1,0 +1,14 @@
+{
+    "name": "PHS R packages CI",
+    "description": "This workflow will style and document the package and then run R-CMD-CHECK checking against R versions and platforms used within PHS",
+    "iconName": "phs-logo",
+    "categories": [
+        "R",
+        "continuous-integration",
+        "testing"
+    ],
+    "filePatterns": [
+        "^NAMESPACE$",
+        "^DESCRIPTION$"
+    ]
+}
